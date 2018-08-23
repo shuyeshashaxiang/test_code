@@ -1,0 +1,5 @@
+update
+eclipse
+run
+run com.akkademy.AkkademyDbSpec
+test
