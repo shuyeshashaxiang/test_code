@@ -1,0 +1,12 @@
+##############################
+## Folders                    ##
+##############################
+chapter.001/target
+chapter.001/project/target
+chapter.001/project/project/target
+chapter.001/.settings
+chapter.001/.classpath
+ 
+##############################
+## Netbeans conf              ##
+##############################
