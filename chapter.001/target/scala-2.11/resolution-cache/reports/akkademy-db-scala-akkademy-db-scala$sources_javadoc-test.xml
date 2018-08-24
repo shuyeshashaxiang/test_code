@@ -7,18 +7,18 @@
 		revision="1.0"
 		conf="test"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20180823224226"/>
+		date="20180824092224"/>
 	<dependencies>
 		<module organisation="org.scala-lang" name="scala-reflect">
 			<revision name="2.11.1" status="release" pubdate="20140520160246" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.1/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
 				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
-				<metadata-artifact status="no" details="" size="2670" time="0" location="C:\Users\chenfei\.ivy2\cache\org.scala-lang\scala-reflect\ivy-2.11.1.xml" searched="false" origin-is-local="false" origin-location="https://oss.sonatype.org/content/repositories/releases/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.pom"/>
+				<metadata-artifact status="no" details="" size="2670" time="0" location="C:\Users\Administrator\.ivy2\cache\org.scala-lang\scala-reflect\ivy-2.11.1.xml" searched="false" origin-is-local="false" origin-location="https://oss.sonatype.org/content/repositories/releases/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.pom"/>
 				<caller organisation="akkademy-db-scala" name="akkademy-db-scala$sources_javadoc" conf="test, compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="1.0" extra-info.apiURL="http://www.scala-lang.org/api/2.11.1/"/>
 				<artifacts>
-					<artifact name="scala-reflect" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="3616593" time="347071" location="C:\Users\chenfei\.ivy2\cache\org.scala-lang\scala-reflect\docs\scala-reflect-2.11.1-javadoc.jar">
+					<artifact name="scala-reflect" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="3616593" time="0" location="C:\Users\Administrator\.ivy2\cache\org.scala-lang\scala-reflect\docs\scala-reflect-2.11.1-javadoc.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1-javadoc.jar"/>
 					</artifact>
-					<artifact name="scala-reflect" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="555369" time="63640" location="C:\Users\chenfei\.ivy2\cache\org.scala-lang\scala-reflect\srcs\scala-reflect-2.11.1-sources.jar">
+					<artifact name="scala-reflect" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="555369" time="0" location="C:\Users\Administrator\.ivy2\cache\org.scala-lang\scala-reflect\srcs\scala-reflect-2.11.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -27,13 +27,13 @@
 		<module organisation="org.scalatest" name="scalatest_2.11">
 			<revision name="2.1.6" status="release" pubdate="20140508082323" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="5">
 				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="no" details="" size="7233" time="0" location="C:\Users\chenfei\.ivy2\cache\org.scalatest\scalatest_2.11\ivy-2.1.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.1.6/scalatest_2.11-2.1.6.pom"/>
+				<metadata-artifact status="no" details="" size="7233" time="0" location="C:\Users\Administrator\.ivy2\cache\org.scalatest\scalatest_2.11\ivy-2.1.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.1.6/scalatest_2.11-2.1.6.pom"/>
 				<caller organisation="akkademy-db-scala" name="akkademy-db-scala$sources_javadoc" conf="test, compile, runtime" rev="2.1.6" rev-constraint-default="2.1.6" rev-constraint-dynamic="2.1.6" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="scalatest_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1415010" time="151067" location="C:\Users\chenfei\.ivy2\cache\org.scalatest\scalatest_2.11\srcs\scalatest_2.11-2.1.6-sources.jar">
+					<artifact name="scalatest_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1415010" time="0" location="C:\Users\Administrator\.ivy2\cache\org.scalatest\scalatest_2.11\srcs\scalatest_2.11-2.1.6-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.1.6/scalatest_2.11-2.1.6-sources.jar"/>
 					</artifact>
-					<artifact name="scalatest_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="342" time="1170" location="C:\Users\chenfei\.ivy2\cache\org.scalatest\scalatest_2.11\docs\scalatest_2.11-2.1.6-javadoc.jar">
+					<artifact name="scalatest_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="342" time="0" location="C:\Users\Administrator\.ivy2\cache\org.scalatest\scalatest_2.11\docs\scalatest_2.11-2.1.6-javadoc.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.1.6/scalatest_2.11-2.1.6-javadoc.jar"/>
 					</artifact>
 				</artifacts>
@@ -42,13 +42,13 @@
 		<module organisation="org.scala-lang.modules" name="scala-parser-combinators_2.11">
 			<revision name="1.0.1" status="release" pubdate="20140416172222" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
 				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
-				<metadata-artifact status="no" details="" size="2964" time="0" location="C:\Users\chenfei\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\ivy-1.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.pom"/>
+				<metadata-artifact status="no" details="" size="2964" time="0" location="C:\Users\Administrator\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\ivy-1.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.pom"/>
 				<caller organisation="akkademy-db-scala" name="akkademy-db-scala$sources_javadoc" conf="test, compile, runtime" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="scala-parser-combinators_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="661706" time="66388" location="C:\Users\chenfei\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\docs\scala-parser-combinators_2.11-1.0.1-javadoc.jar">
+					<artifact name="scala-parser-combinators_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="661706" time="0" location="C:\Users\Administrator\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\docs\scala-parser-combinators_2.11-1.0.1-javadoc.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1-javadoc.jar"/>
 					</artifact>
-					<artifact name="scala-parser-combinators_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="41398" time="6670" location="C:\Users\chenfei\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\srcs\scala-parser-combinators_2.11-1.0.1-sources.jar">
+					<artifact name="scala-parser-combinators_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="41398" time="0" location="C:\Users\Administrator\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\srcs\scala-parser-combinators_2.11-1.0.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -57,13 +57,13 @@
 		<module organisation="org.scala-lang.modules" name="scala-xml_2.11">
 			<revision name="1.0.1" status="release" pubdate="20140416172108" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
 				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
-				<metadata-artifact status="no" details="" size="3175" time="0" location="C:\Users\chenfei\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\ivy-1.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.1/scala-xml_2.11-1.0.1.pom"/>
+				<metadata-artifact status="no" details="" size="3175" time="0" location="C:\Users\Administrator\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\ivy-1.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.1/scala-xml_2.11-1.0.1.pom"/>
 				<caller organisation="akkademy-db-scala" name="akkademy-db-scala$sources_javadoc" conf="test, compile, runtime" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="scala-xml_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="1153655" time="117067" location="C:\Users\chenfei\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\docs\scala-xml_2.11-1.0.1-javadoc.jar">
+					<artifact name="scala-xml_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1153655" time="0" location="C:\Users\Administrator\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\docs\scala-xml_2.11-1.0.1-javadoc.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.1/scala-xml_2.11-1.0.1-javadoc.jar"/>
 					</artifact>
-					<artifact name="scala-xml_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="109171" time="13641" location="C:\Users\chenfei\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\srcs\scala-xml_2.11-1.0.1-sources.jar">
+					<artifact name="scala-xml_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="109171" time="0" location="C:\Users\Administrator\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\srcs\scala-xml_2.11-1.0.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.1/scala-xml_2.11-1.0.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -72,13 +72,13 @@
 		<module organisation="com.typesafe.akka" name="akka-testkit_2.11">
 			<revision name="2.3.6" status="release" pubdate="20140905150020" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="2">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="no" details="" size="3076" time="0" location="C:\Users\chenfei\.ivy2\cache\com.typesafe.akka\akka-testkit_2.11\ivy-2.3.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.11/2.3.6/akka-testkit_2.11-2.3.6.pom"/>
+				<metadata-artifact status="no" details="" size="3076" time="0" location="C:\Users\Administrator\.ivy2\cache\com.typesafe.akka\akka-testkit_2.11\ivy-2.3.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.11/2.3.6/akka-testkit_2.11-2.3.6.pom"/>
 				<caller organisation="akkademy-db-scala" name="akkademy-db-scala$sources_javadoc" conf="test, compile, runtime" rev="2.3.6" rev-constraint-default="2.3.6" rev-constraint-dynamic="2.3.6" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="akka-testkit_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="30664" time="3230" location="C:\Users\chenfei\.ivy2\cache\com.typesafe.akka\akka-testkit_2.11\srcs\akka-testkit_2.11-2.3.6-sources.jar">
+					<artifact name="akka-testkit_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="30664" time="0" location="C:\Users\Administrator\.ivy2\cache\com.typesafe.akka\akka-testkit_2.11\srcs\akka-testkit_2.11-2.3.6-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.11/2.3.6/akka-testkit_2.11-2.3.6-sources.jar"/>
 					</artifact>
-					<artifact name="akka-testkit_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="237991" time="26828" location="C:\Users\chenfei\.ivy2\cache\com.typesafe.akka\akka-testkit_2.11\docs\akka-testkit_2.11-2.3.6-javadoc.jar">
+					<artifact name="akka-testkit_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="237991" time="0" location="C:\Users\Administrator\.ivy2\cache\com.typesafe.akka\akka-testkit_2.11\docs\akka-testkit_2.11-2.3.6-javadoc.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.11/2.3.6/akka-testkit_2.11-2.3.6-javadoc.jar"/>
 					</artifact>
 				</artifacts>
@@ -87,20 +87,20 @@
 		<module organisation="com.typesafe.akka" name="akka-actor_2.11">
 			<revision name="2.3.6" status="release" pubdate="20140905145904" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="4">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="no" details="" size="2826" time="0" location="C:\Users\chenfei\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\ivy-2.3.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.6/akka-actor_2.11-2.3.6.pom"/>
+				<metadata-artifact status="no" details="" size="2826" time="0" location="C:\Users\Administrator\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\ivy-2.3.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.6/akka-actor_2.11-2.3.6.pom"/>
 				<caller organisation="akkademy-db-scala" name="akkademy-db-scala$sources_javadoc" conf="test, compile, runtime" rev="2.3.6" rev-constraint-default="2.3.6" rev-constraint-dynamic="2.3.6" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="akka-actor_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="2921597" time="291047" location="C:\Users\chenfei\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\docs\akka-actor_2.11-2.3.6-javadoc.jar">
+					<artifact name="akka-actor_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="2921597" time="0" location="C:\Users\Administrator\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\docs\akka-actor_2.11-2.3.6-javadoc.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.6/akka-actor_2.11-2.3.6-javadoc.jar"/>
 					</artifact>
-					<artifact name="akka-actor_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="330314" time="37630" location="C:\Users\chenfei\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\srcs\akka-actor_2.11-2.3.6-sources.jar">
+					<artifact name="akka-actor_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="330314" time="0" location="C:\Users\Administrator\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\srcs\akka-actor_2.11-2.3.6-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.6/akka-actor_2.11-2.3.6-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 			<revision name="2.3.3" status="release" pubdate="20140521031137" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="-1">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="no" details="" size="2826" time="0" location="C:\Users\chenfei\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\ivy-2.3.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.pom"/>
+				<metadata-artifact status="no" details="" size="2826" time="0" location="C:\Users\Administrator\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\ivy-2.3.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.pom"/>
 				<evicted-by rev="2.3.6"/>
 				<caller organisation="akkademy-db-scala" name="akkademy-db-scala$sources_javadoc" conf="test, compile, runtime" rev="2.3.3" rev-constraint-default="2.3.3" rev-constraint-dynamic="2.3.3" callerrev="1.0"/>
 				<artifacts>
@@ -110,13 +110,13 @@
 		<module organisation="org.scala-lang" name="scala-library">
 			<revision name="2.11.1" status="release" pubdate="20140520160221" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.1/" downloaded="false" searched="false" default="false" conf="default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="1">
 				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
-				<metadata-artifact status="no" details="" size="2685" time="0" location="C:\Users\chenfei\.ivy2\cache\org.scala-lang\scala-library\ivy-2.11.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.pom"/>
+				<metadata-artifact status="no" details="" size="2685" time="0" location="C:\Users\Administrator\.ivy2\cache\org.scala-lang\scala-library\ivy-2.11.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.pom"/>
 				<caller organisation="akkademy-db-scala" name="akkademy-db-scala$sources_javadoc" conf="test, compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="1.0" extra-info.apiURL="http://www.scala-lang.org/api/2.11.1/"/>
 				<artifacts>
-					<artifact name="scala-library" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="20377790" time="1901907" location="C:\Users\chenfei\.ivy2\cache\org.scala-lang\scala-library\docs\scala-library-2.11.1-javadoc.jar">
+					<artifact name="scala-library" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="20377790" time="0" location="C:\Users\Administrator\.ivy2\cache\org.scala-lang\scala-library\docs\scala-library-2.11.1-javadoc.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1-javadoc.jar"/>
 					</artifact>
-					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="896552" time="72318" location="C:\Users\chenfei\.ivy2\cache\org.scala-lang\scala-library\srcs\scala-library-2.11.1-sources.jar">
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="896552" time="0" location="C:\Users\Administrator\.ivy2\cache\org.scala-lang\scala-library\srcs\scala-library-2.11.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -125,13 +125,13 @@
 		<module organisation="com.typesafe" name="config">
 			<revision name="1.2.1" status="release" pubdate="20140502225416" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/config" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="0">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="no" details="" size="2913" time="0" location="C:\Users\chenfei\.ivy2\cache\com.typesafe\config\ivy-1.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/config/1.2.1/config-1.2.1.pom"/>
+				<metadata-artifact status="no" details="" size="2768" time="0" location="C:\Users\Administrator\.ivy2\cache\com.typesafe\config\ivy-1.2.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/typesafe/config/1.2.1/config-1.2.1.pom"/>
 				<caller organisation="akkademy-db-scala" name="akkademy-db-scala$sources_javadoc" conf="test, compile, runtime" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="config" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="147508" time="17100" location="C:\Users\chenfei\.ivy2\cache\com.typesafe\config\docs\config-1.2.1-javadoc.jar">
+					<artifact name="config" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="147508" time="0" location="C:\Users\Administrator\.ivy2\cache\com.typesafe\config\docs\config-1.2.1-javadoc.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/config/1.2.1/config-1.2.1-javadoc.jar"/>
 					</artifact>
-					<artifact name="config" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="132611" time="15518" location="C:\Users\chenfei\.ivy2\cache\com.typesafe\config\srcs\config-1.2.1-sources.jar">
+					<artifact name="config" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="132611" time="0" location="C:\Users\Administrator\.ivy2\cache\com.typesafe\config\srcs\config-1.2.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/config/1.2.1/config-1.2.1-sources.jar"/>
 					</artifact>
 				</artifacts>

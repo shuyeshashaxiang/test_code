@@ -4,7 +4,7 @@
 		module="akkademy-db-scala$sources_javadoc"
 		revision="1.0"
 		status="integration"
-		publication="20180823224226"
+		publication="20180824092224"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

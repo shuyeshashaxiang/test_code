@@ -3,3 +3,5 @@ eclipse
 run
 run com.akkademy.AkkademyDbSpec
 test
+update
+eclipse
