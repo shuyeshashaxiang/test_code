@@ -30,6 +30,7 @@ class PingActor extends FunSpecLike with Matchers {
 		}
 	}
 	
+	/*
 	describe("FutureExamples") {
 		import scala.concurrent.ExecutionContext.Implicits.global
 		it("should print to console") {
@@ -76,7 +77,7 @@ class PingActor extends FunSpecLike with Matchers {
 			Thread.sleep(1000)
 		}
 	}
-	
+	*/
 	def askpong(message:String):Future[String] = (pongActor?message).mapTo[String]
 	
 }

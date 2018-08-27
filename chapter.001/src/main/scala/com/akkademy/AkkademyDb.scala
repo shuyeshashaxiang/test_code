@@ -23,6 +23,14 @@ class AkkademyDb extends Actor {
 				case None=>sender()!Status.Failure(new KeyNotFoundException(key))
 			}
 		}
+		case StartRequest()=>
+		  log.info("received StartRequest")
+		  map.put("start", "true")
+		  sender()!Status.Success
+		case ConnectRequest(host,port)=>
+		  log.info("received ConnectRequest - host:{} port:{}", host, port)
+		  map.put(host,new Integer(port))
+		  sender()!Status.Success
 		case unknown=>log.info("received unknown message:{}", unknown)
 	}
 }
